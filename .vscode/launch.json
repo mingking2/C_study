@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "version": "0.2.0",
   "configurations": [
     {
@@ -41,4 +42,22 @@
       ]
     }
   ]
+=======
+    "configurations": [
+        {
+            "name": "C/C++: gcc 활성 파일 빌드 및 디버그",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: gcc 활성 파일 빌드"
+        }
+    ],
+    "version": "2.0.0"
+>>>>>>> b3cbea15f9cc7462ab7b02040fad2be20113b508
 }
