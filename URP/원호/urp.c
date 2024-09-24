@@ -4,6 +4,7 @@
 #include <ctype.h>
 
 
+//메크로
 #define MAX_USERS 100
 #define ID_LEN 15
 #define NAME_LEN 50
@@ -72,14 +73,13 @@ void signup() {
     }
 
 
+
+
+
+
     //이름
     printf("이름을 입력하시오\n");
     scanf("%49s", users[users_count].name);
-
-    if (isalpha(users[users_count].name) == 0) {
-        printf("올바르지 않은 형식입니다");
-        return;
-    }
 
 
     //전화번호
@@ -106,8 +106,6 @@ void signup() {
         printf("전화번호는 11자리로 입력해주십시오 \n");
         return;
     }
-
-
 
 
 
