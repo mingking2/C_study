@@ -1,4 +1,48 @@
 {
+<<<<<<< HEAD
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+          {
+              "description": "Enable pretty-printing for gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+          },
+          {
+              "description": "Set Disassembly Flavor to Intel",
+              "text": "-gdb-set disassembly-flavor intel",
+              "ignoreFailures": true
+          }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/SAMSUNG/Desktop/무상폭코/urp_wonho/URP/원호",
+      "program": "c:/Users/SAMSUNG/Desktop/무상폭코/urp_wonho/URP/원호/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+=======
     "configurations": [
         {
             "name": "C/C++: gcc 활성 파일 빌드 및 디버그",
@@ -15,4 +59,5 @@
         }
     ],
     "version": "2.0.0"
+>>>>>>> b3cbea15f9cc7462ab7b02040fad2be20113b508
 }
